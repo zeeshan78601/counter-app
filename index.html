@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        #count {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #count:hover {
+            background-color: #0056b3;
+        }
+
+        #para {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Counter Page</h1>
+    </header>
+
+    <main>
+        <p id="para">0</p>
+        <button id="count">Update Count</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Website Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
